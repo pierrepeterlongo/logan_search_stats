@@ -2,17 +2,6 @@
 
 Usage statistics of [Logan Search](https://logan-search.org), updated once a day.
 
-## Data origin
-
-The figures come from two services, which do not count the same queries:
-
-| Source | What it counts | Provided by |
-|---|---|---|
-| https://logan-search.org/api/admin/stats | Queries made on logan-search.org, including failed queries and queries answered from the local cache | logan-search.org |
-| https://dev.brc-analytics.org/api/v1/galaxy/kmindex/queue/history | Queries made on the backend, including queries made by other means, notably through https://logan.dev.brc-analytics.org/ | BRC Analytics, from Galaxy |
-
-The first source can therefore count more queries than the second, because of failed and locally cached queries. The
-second one also includes queries that were not made on logan-search.org.
 
 ## Queries made on logan-search.org
 
@@ -30,3 +19,16 @@ The bottom panel shows the daily median and 90th percentile of the wait before a
 Galaxy's job cache are excluded, as they never queue.
 
 ![Backend queue statistics](brc_queue_plot.png)
+
+
+## Data origin
+
+The figures come from two services, which do not count the same queries:
+
+| Source | What it counts | Provided by |
+|---|---|---|
+| https://logan-search.org/api/admin/stats | Queries made on logan-search.org, including failed queries and queries answered from the local cache | logan-search.org |
+| https://dev.brc-analytics.org/api/v1/galaxy/kmindex/queue/history | Queries made on the backend, including queries made by other means, notably through https://logan.dev.brc-analytics.org/ | BRC Analytics, from Galaxy |
+
+The first source can therefore count more queries than the second, because of failed and locally cached queries. The
+second one also includes queries that were not made on logan-search.org.
