@@ -2,7 +2,6 @@
 
 Usage statistics of [Logan Search](https://logan-search.org), updated once a day.
 
-
 ## Queries made on logan-search.org
 
 Total queries, backend errors and rejected queue over time.
@@ -19,7 +18,6 @@ The bottom panel shows the daily median and 90th percentile of the wait before a
 Galaxy's job cache are excluded, as they never queue.
 
 ![Backend queue statistics](brc_queue_plot.png)
-
 
 ## Data origin
 
