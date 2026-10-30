@@ -4,7 +4,7 @@ Usage statistics of [Logan Search](https://logan-search.org), updated once a day
 
 ## Data origin
 
-The figures come from two public services, which do not count the same queries:
+The figures come from two services, which do not count the same queries:
 
 | Source | What it counts | Provided by |
 |---|---|---|
