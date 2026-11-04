@@ -2,6 +2,13 @@
 
 Usage statistics of [Logan Search](https://logan-search.org), updated once a day.
 
+## Yesterday
+
+<!-- daily-queries:start -->
+**Queries on 2026-11-03 (UTC): 68** on the backend (BRC Analytics history).
+The logan-search.org counter increased by 59 between 2026-11-03 06:00 and 2026-11-04 06:00 UTC.
+<!-- daily-queries:end -->
+
 ## Queries made on logan-search.org
 
 Total queries, backend errors and rejected queue over time.
@@ -11,8 +18,8 @@ Total queries, backend errors and rejected queue over time.
 ## Queries made on the backend
 
 The top panel shows the logan-search.org counter up to 2026-10-30 (11,573 queries), then adds the backend queries
-submitted after that date. Since the two sources do not count the same queries, the second part is not a strict
-continuation of the first.
+submitted after that date, with one point per day. Since the two sources do not count the same queries, the second
+part is not a strict continuation of the first.
 
 The bottom panel shows the daily median and 90th percentile of the wait before a query starts. Queries answered from
 Galaxy's job cache are excluded, as they never queue.
