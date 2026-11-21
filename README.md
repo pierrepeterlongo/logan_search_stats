@@ -5,8 +5,8 @@ Usage statistics of [Logan Search](https://logan-search.org), updated once a day
 ## Yesterday
 
 <!-- daily-queries:start -->
-**Queries on 2026-11-19 (UTC): 530** on the backend (BRC Analytics history).
-The logan-search.org counter increased by 437 between 2026-11-19 06:00 and 2026-11-20 06:00 UTC.
+**Queries on 2026-11-20 (UTC): 268** on the backend (BRC Analytics history).
+The logan-search.org counter increased by 359 between 2026-11-20 06:00 and 2026-11-21 06:00 UTC.
 <!-- daily-queries:end -->
 
 ## Queries made on logan-search.org
